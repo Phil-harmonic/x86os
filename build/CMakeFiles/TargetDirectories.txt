@@ -1,0 +1,5 @@
+D:/demo/x86os/build/CMakeFiles/edit_cache.dir
+D:/demo/x86os/build/CMakeFiles/rebuild_cache.dir
+D:/demo/x86os/build/source/boot/CMakeFiles/boot.dir
+D:/demo/x86os/build/source/boot/CMakeFiles/edit_cache.dir
+D:/demo/x86os/build/source/boot/CMakeFiles/rebuild_cache.dir
