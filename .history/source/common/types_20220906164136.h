@@ -3,11 +3,13 @@
  * @version: 
  * @@Company: personal
  * @Author: Liang Chen
- * @Date: 2022-09-06 16:37:38
+ * @Date: 2022-09-06 16:41:06
  * @LastEditors: Liang Chen
- * @LastEditTime: 2022-09-06 16:38:07
+ * @LastEditTime: 2022-09-06 16:41:36
  */
-#ifndef BOOT_INFO_H
-#define BOTT_INFO_H
+#ifndef TYPES_H
+#define TYPES_H
+
+
 
 #endif

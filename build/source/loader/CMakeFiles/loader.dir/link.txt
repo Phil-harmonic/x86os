@@ -1,0 +1,1 @@
+x86_64-elf-ld @CMakeFiles\loader.dir\objects1.rsp -m elf_i386  -Ttext=0x8000 -o D:/demo/x86os/build/source/loader/loader.elf
