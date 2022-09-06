@@ -3,3 +3,6 @@ D:/demo/x86os/build/CMakeFiles/rebuild_cache.dir
 D:/demo/x86os/build/source/boot/CMakeFiles/boot.dir
 D:/demo/x86os/build/source/boot/CMakeFiles/edit_cache.dir
 D:/demo/x86os/build/source/boot/CMakeFiles/rebuild_cache.dir
+D:/demo/x86os/build/source/loader/CMakeFiles/loader.dir
+D:/demo/x86os/build/source/loader/CMakeFiles/edit_cache.dir
+D:/demo/x86os/build/source/loader/CMakeFiles/rebuild_cache.dir

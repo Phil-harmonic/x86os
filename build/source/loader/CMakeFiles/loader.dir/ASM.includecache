@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/demo/x86os/source/loader/loader.h
+
+D:/demo/x86os/source/loader/start.S
+loader.h
+D:/demo/x86os/source/loader/loader.h
+
