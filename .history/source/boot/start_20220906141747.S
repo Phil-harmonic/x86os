@@ -20,22 +20,22 @@ _start:
 	mov %ax, %gs
 
 	mov $_start, %esp
-	// BIOS int 10 show charactors
+	// BIOS int 10 show
 	mov $0xe, %ah
 	mov $'L', %al
 	int $0x10
 
 read_loader:
 	// 从磁盘的扇区1读取指定大小的指令到内存的0x8000处
-	// BIOS提供了磁盘操作的服务中断, 其具体使用方法如下：
-	// ● AH=02H
-	// ● AL=扇区数
-	// ● CH=柱面 cx = ch: cl
-	// ● CL=扇区
-	// ● DH=磁头
-	// ● DL=驱动器, 00H~7FH:软盘, 80H~0FFH:硬盘
-	// ● ES:BX=缓冲区的地址
-	// ● 出口参数:CF=0——操作成功, AH=00H, AL=传输的扇区数, 否则, AH=状态代码, 
+	// BIOS提供了磁盘操作的服务中断，其具体使用方法如下：
+	// ● AH＝02H
+	// ● AL＝扇区数
+	// ● CH＝柱面 cx = ch: cl
+	// ● CL＝扇区
+	// ● DH＝磁头
+	// ● DL＝驱动器，00H~7FH：软盘；80H~0FFH：硬盘
+	// ● ES:BX＝缓冲区的地址
+	// ● 出口参数：CF＝0——操作成功，AH＝00H，AL＝传输的扇区数，否则，AH＝状态代码，
 	//   参见功能号01H中的说明。CF标志见EFLAS寄存器中的CF位。
 	mov $0x8000, %bx
 	mov $0x2, %ah
