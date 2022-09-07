@@ -1,0 +1,22 @@
+/**
+ *
+ * 
+ */
+  	.code16
+ 	.text
+	.global _start
+	.extern loader_entry
+_start:
+	jmp loader_entry
+
+	.code32
+	.text
+	.global protect_mode_entry
+protect_mode_entry:
+	mov $16, %ax
+	mov %ax, %ds
+	mov %ax, %ss
+	mov %ax, %es
+	mov %ax, %fs
+	mov %ax, %gs
+	jmp .
