@@ -5,7 +5,7 @@
  * @Author: Liang Chen
  * @Date: 2022-09-06 21:38:26
  * @LastEditors: Liang Chen
- * @LastEditTime: 2022-09-07 10:54:03
+ * @LastEditTime: 2022-09-07 10:42:42
  */
 #ifndef BOOT_INFO_H
 #define BOOT_INFO_H
@@ -14,7 +14,6 @@
 
 #define BOOT_RAM_REGION_MAX	10		// RAM区最大数量
 #define SECTOR_SIZE 512
-#define SYS_KERNEL_LOAD_ADDR (1024 * 1024)
 
 /**
  * 启动信息参数

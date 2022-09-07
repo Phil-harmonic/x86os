@@ -20,7 +20,7 @@ static inline uint8_t inb (uint16_t port) {
 } 
 
 static inline uint16_t inw (uint16_t port) {
-    // inb ax, dx
+    // inb al, dx
     uint16_t rv;
     __asm__ __volatile__("in %[p], %[v]":[v]"=a"(rv) : [p]"d"(port));
     return rv;

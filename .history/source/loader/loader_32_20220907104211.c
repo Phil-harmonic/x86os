@@ -5,22 +5,22 @@
  * @Author: Liang Chen
  * @Date: 2022-09-06 15:04:56
  * @LastEditors: Liang Chen
- * @LastEditTime: 2022-09-07 10:58:20
+ * @LastEditTime: 2022-09-07 10:42:11
  */
 
 #include "loader.h"
 
-static void read_disk (int sector, int sector_count, uint8_t *buffer) {
+static void read_disk (int sector, int sector_count, uint8_t buffer) {
     outb(0x1F6, 0xE0); // 选择硬盘，主盘或从盘
     outb(0x1F2, (uint8_t)(sector_count >> 8));
     outb(0x1F3, (uint8_t)(sector >> 24));
     outb(0x1F4, 0);
     outb(0x1F5, 0);
 
-    outb(0x1F2, (uint8_t)sector_count);
-    outb(0x1F3, (uint8_t)sector);
-    outb(0x1F4, (uint8_t)(sector >> 8));
-    outb(0x1F5, (uint8_t)(sector >> 16));
+    outb(ox1F2, (uint8_t)sector_count);
+    outb(ox1F2, (uint8_t)sector);
+    outb(ox1F2, (uint8_t)(sector >> 8));
+    outb(ox1F2, (uint8_t)(sector >> 16));
 
     outb(0x1F7, 0x24);
 
@@ -36,6 +36,5 @@ static void read_disk (int sector, int sector_count, uint8_t *buffer) {
 }
 
 void load_kernel (void) {
-    read_disk(100, 500, (uint8_t*)SYS_KERNEL_LOAD_ADDR);
     for (;;) {}
 }
