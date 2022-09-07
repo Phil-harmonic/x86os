@@ -5,7 +5,7 @@
  * @Author: Liang Chen
  * @Date: 2022-09-06 15:03:43
  * @LastEditors: Liang Chen
- * @LastEditTime: 2022-09-07 13:42:42
+ * @LastEditTime: 2022-09-07 13:40:32
  */
 
 __asm__(".code16gcc");
@@ -81,7 +81,6 @@ static void enter_protect_mode (void) {
     uint32_t cr0 = read_cr0();
     write_cr0(cr0 | (1 << 0));
 
-    // 跳转保护模式
     far_jump(8, (uint32_t)protect_mode_entry);
 }
 
@@ -91,7 +90,7 @@ static void enter_protect_mode (void) {
 void loader_entry (void) {
     show_msg(".....loading.....\n\r");
     detect_memory();
-    enter_protect_mode(); // 进入保护模式运行
+    enter_protect_mode();
     for (;;) {}
 }
 

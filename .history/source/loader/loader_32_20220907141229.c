@@ -5,7 +5,7 @@
  * @Author: Liang Chen
  * @Date: 2022-09-06 15:04:56
  * @LastEditors: Liang Chen
- * @LastEditTime: 2022-09-07 14:19:30
+ * @LastEditTime: 2022-09-07 14:12:29
  */
 
 #include "loader.h"
@@ -26,7 +26,7 @@ static void read_disk (int sector, int sector_count, uint8_t *buffer) {
 	outb(0x1F7, (uint8_t) 0x24);
 
 	// 读取数据
-	uint16_t *data_buf = (uint16_t*)buffer;
+	uint16_t *data_buf = (uint16_t*) buf;
 	while (sector_count-- > 0) {
 		// 每次扇区读之前都要检查，等待数据就绪
 		while ((inb(0x1F7) & 0x88) != 0x8) {}

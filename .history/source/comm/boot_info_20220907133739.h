@@ -5,7 +5,7 @@
  * @Author: Liang Chen
  * @Date: 2022-09-06 21:38:26
  * @LastEditors: Liang Chen
- * @LastEditTime: 2022-09-07 13:39:23
+ * @LastEditTime: 2022-09-07 13:37:38
  */
 #ifndef BOOT_INFO_H
 #define BOOT_INFO_H
@@ -26,7 +26,7 @@ typedef struct _boot_info_t {
         uint32_t size;
     }ram_region_cfg[BOOT_RAM_REGION_MAX];
     int ram_region_count;
-} boot_info_t;
+}boot_info_t;
 
 extern boot_info_t boot_info;
 

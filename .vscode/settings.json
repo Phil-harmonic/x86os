@@ -8,10 +8,11 @@
         "task.h": "c",
         "types.h": "c",
         "fcntl.h": "c",
-        "_default_fcntl.h": "c"
+        "_default_fcntl.h": "c",
+        "boot_info.h": "c"
     },
     "workbench.colorCustomizations": {
-        "statusBar.background" : "#5872a8",
+        "statusBar.background" : "#193266",
         "statusBar.noFolderBackground" : "#5e5e99",
         "statusBar.debuggingBackground": "#367070"
     }

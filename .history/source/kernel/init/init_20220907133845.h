@@ -3,13 +3,14 @@
  * @version: 
  * @@Company: personal
  * @Author: Liang Chen
- * @Date: 2022-09-07 11:08:43
+ * @Date: 2022-09-07 11:08:36
  * @LastEditors: Liang Chen
- * @LastEditTime: 2022-09-07 14:04:45
+ * @LastEditTime: 2022-09-07 13:31:37
  */
-#include "init.h"
+#ifndef INIT_H
+#define INIT_H
+
+#include "comm/types.h"
 #include "comm/boot_info.h"
 
-void kernel_init (boot_info_t *boot_info) {
-    
-}
+#endif

@@ -81,7 +81,6 @@ static void enter_protect_mode (void) {
     uint32_t cr0 = read_cr0();
     write_cr0(cr0 | (1 << 0));
 
-    // 跳转保护模式
     far_jump(8, (uint32_t)protect_mode_entry);
 }
 
