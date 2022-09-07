@@ -56,7 +56,7 @@ _start:
    10001:	89 e5                	mov    %esp,%ebp
 	mov 0x8(%ebp), %eax
    10003:	8b 45 08             	mov    0x8(%ebp),%eax
-
+	# kernel_init (boot_info)
 	push %eax
    10006:	50                   	push   %eax
 	call kernel_init
@@ -64,10 +64,10 @@ _start:
    1000c:	eb fe                	jmp    1000c <_start+0xc>
 
 0001000e <kernel_init>:
- * @LastEditTime: 2022-09-07 14:04:45
  */
 #include "init.h"
 #include "comm/boot_info.h"
+#include "cpu.h"
 
 void kernel_init (boot_info_t *boot_info) {
    1000e:	55                   	push   %ebp

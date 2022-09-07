@@ -124,21 +124,21 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "boot::@a4fbfdde3044a49ad01d",
-					"jsonFile" : "target-boot-Debug-a0ba3f9d40964239d9e2.json",
+					"jsonFile" : "target-boot-Debug-bf64e56eb7c1575a2a12.json",
 					"name" : "boot",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "kernel::@483af936ae9a949d521e",
-					"jsonFile" : "target-kernel-Debug-cfc98480bfde909fd2c0.json",
+					"jsonFile" : "target-kernel-Debug-607e4f69615c685e2c45.json",
 					"name" : "kernel",
 					"projectIndex" : 3
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "loader::@346703cd72729101d3c6",
-					"jsonFile" : "target-loader-Debug-be2e278c4daedbab97bc.json",
+					"jsonFile" : "target-loader-Debug-3b807a594316f20c8e2f.json",
 					"name" : "loader",
 					"projectIndex" : 2
 				}
