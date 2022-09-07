@@ -29,7 +29,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
@@ -96,7 +96,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-m elf_i386  -Ttext=0x100000",
+				"fragment" : "-m elf_i386  -T D:/demo/x86os/source/kernel/kernel.lds",
 				"role" : "flags"
 			},
 			{

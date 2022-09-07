@@ -5,7 +5,7 @@
  * @Author: Liang Chen
  * @Date: 2022-09-06 15:04:56
  * @LastEditors: Liang Chen
- * @LastEditTime: 2022-09-07 17:40:27
+ * @LastEditTime: 2022-09-07 17:27:18
  */
 
 #include "loader.h"
@@ -71,18 +71,11 @@ static uint32_t reload_elf_file (uint8_t *file_buffer) {
     return elf_hdr->e_entry;
 }
 
-static void die (int code) {
-	for (;;) {}
-}
-
 void load_kernel (void) {
     read_disk(100, 500, (uint8_t*)SYS_KERNEL_LOAD_ADDR);
 
-	uint32_t kernel_entry = reload_elf_file((uint8_t*)SYS_KERNEL_LOAD_ADDR);
-	if (kernel_entry == 0) {
-		die(-1);
-	}
+	reload_elf_file((uint8_t*)SYS_KERNEL_LOAD_ADDR);
 
-    ((void (*)(boot_info_t*))kernel_entry)(&boot_info);
+    ((void (*)(boot_info_t*))SYS_KERNEL_LOAD_ADDR)(&boot_info);
     for (;;) {}
 }
