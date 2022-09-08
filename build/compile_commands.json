@@ -31,6 +31,16 @@
 },
 {
   "directory": "D:/demo/x86os/build/source/kernel",
+  "command": "D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe  @CMakeFiles/kernel.dir/includes_C.rsp -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -o CMakeFiles/kernel.dir/cpu/cpu.c.obj -c D:/demo/x86os/source/kernel/cpu/cpu.c",
+  "file": "D:/demo/x86os/source/kernel/cpu/cpu.c"
+},
+{
+  "directory": "D:/demo/x86os/build/source/kernel",
+  "command": "D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe  @CMakeFiles/kernel.dir/includes_C.rsp -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -o CMakeFiles/kernel.dir/cpu/irq.c.obj -c D:/demo/x86os/source/kernel/cpu/irq.c",
+  "file": "D:/demo/x86os/source/kernel/cpu/irq.c"
+},
+{
+  "directory": "D:/demo/x86os/build/source/kernel",
   "command": "D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe  @CMakeFiles/kernel.dir/includes_C.rsp -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -o CMakeFiles/kernel.dir/init/init.c.obj -c D:/demo/x86os/source/kernel/init/init.c",
   "file": "D:/demo/x86os/source/kernel/init/init.c"
 }

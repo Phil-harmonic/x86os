@@ -15,15 +15,15 @@ The C compiler identification is GNU, found in "D:/demo/x86os/build/CMakeFiles/3
 Determining if the C compiler works passed with the following output:
 Change Dir: D:/demo/x86os/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Software/x86_64-elf-tools-windows/bin/make.exe -f Makefile cmTC_bd265/fast && D:/Software/x86_64-elf-tools-windows/bin/make.exe  -f CMakeFiles/cmTC_bd265.dir/build.make CMakeFiles/cmTC_bd265.dir/build
+Run Build Command(s):D:/Software/x86_64-elf-tools-windows/bin/make.exe -f Makefile cmTC_7acd3/fast && D:/Software/x86_64-elf-tools-windows/bin/make.exe  -f CMakeFiles/cmTC_7acd3.dir/build.make CMakeFiles/cmTC_7acd3.dir/build
 make[1]: Entering directory 'D:/demo/x86os/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bd265.dir/testCCompiler.c.obj
-D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -o CMakeFiles/cmTC_bd265.dir/testCCompiler.c.obj -c D:/demo/x86os/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_bd265.exe
-D:/Software/cmak/bin/cmake.exe -E rm -f CMakeFiles/cmTC_bd265.dir/objects.a
-D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-ar.exe qc CMakeFiles/cmTC_bd265.dir/objects.a @CMakeFiles/cmTC_bd265.dir/objects1.rsp
-D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -Wl,--whole-archive CMakeFiles/cmTC_bd265.dir/objects.a -Wl,--no-whole-archive -o cmTC_bd265.exe -Wl,--out-implib,libcmTC_bd265.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_bd265.dir/linklibs.rsp
-x86_64-elf-gcc.exe: warning: CMakeFiles/cmTC_bd265.dir/objects.a: linker input file unused because linking not done
+Building C object CMakeFiles/cmTC_7acd3.dir/testCCompiler.c.obj
+D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -o CMakeFiles/cmTC_7acd3.dir/testCCompiler.c.obj -c D:/demo/x86os/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7acd3.exe
+D:/Software/cmak/bin/cmake.exe -E rm -f CMakeFiles/cmTC_7acd3.dir/objects.a
+D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-ar.exe qc CMakeFiles/cmTC_7acd3.dir/objects.a @CMakeFiles/cmTC_7acd3.dir/objects1.rsp
+D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -Wl,--whole-archive CMakeFiles/cmTC_7acd3.dir/objects.a -Wl,--no-whole-archive -o cmTC_7acd3.exe -Wl,--out-implib,libcmTC_7acd3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_7acd3.dir/linklibs.rsp
+x86_64-elf-gcc.exe: warning: CMakeFiles/cmTC_7acd3.dir/objects.a: linker input file unused because linking not done
 make[1]: Leaving directory 'D:/demo/x86os/build/CMakeFiles/CMakeTmp'
 
 

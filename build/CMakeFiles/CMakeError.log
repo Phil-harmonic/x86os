@@ -1,18 +1,18 @@
 Detecting C compiler ABI info failed to compile with the following output:
 Change Dir: D:/demo/x86os/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):D:/Software/x86_64-elf-tools-windows/bin/make.exe -f Makefile cmTC_96820/fast && D:/Software/x86_64-elf-tools-windows/bin/make.exe  -f CMakeFiles/cmTC_96820.dir/build.make CMakeFiles/cmTC_96820.dir/build
+Run Build Command(s):D:/Software/x86_64-elf-tools-windows/bin/make.exe -f Makefile cmTC_04ee8/fast && D:/Software/x86_64-elf-tools-windows/bin/make.exe  -f CMakeFiles/cmTC_04ee8.dir/build.make CMakeFiles/cmTC_04ee8.dir/build
 make[1]: Entering directory 'D:/demo/x86os/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_96820.dir/CMakeCCompilerABI.c.obj
-D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables    -v -o CMakeFiles/cmTC_96820.dir/CMakeCCompilerABI.c.obj -c D:/Software/cmak/share/cmake-3.23/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_04ee8.dir/CMakeCCompilerABI.c.obj
+D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables    -v -o CMakeFiles/cmTC_04ee8.dir/CMakeCCompilerABI.c.obj -c D:/Software/cmak/share/cmake-3.23/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe
 Target: x86_64-elf
 Configured with: ../gcc-7.1.0/configure --host=i686-w64-mingw32.static --target=x86_64-elf --disable-nls --enable-languages=c,c++ --without-headers --prefix=/root/build-x86_64-elf/windows/output
 Thread model: single
 gcc version 7.1.0 (GCC) 
-COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_96820.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
- d:/software/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/cc1.exe -quiet -v -iprefix d:\software\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/ D:/Software/cmak/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_96820.dir/CMakeCCompilerABI.c.obj -g -O0 -version -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -o C:\Users\Echo\AppData\Local\Temp\cckkPPXt.s
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_04ee8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ d:/software/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/cc1.exe -quiet -v -iprefix d:\software\x86_64-elf-tools-windows\bin\../lib/gcc/x86_64-elf/7.1.0/ D:/Software/cmak/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_04ee8.dir/CMakeCCompilerABI.c.obj -g -O0 -version -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -o C:\Users\Echo\AppData\Local\Temp\cc8lyaoa.s
 GNU C11 (GCC) version 7.1.0 (x86_64-elf)
 	compiled by GNU C version 5.5.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
 
@@ -33,15 +33,15 @@ GNU C11 (GCC) version 7.1.0 (x86_64-elf)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: b00064cd55ffce4efe95d0fcd6948296
-COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_96820.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
- d:/software/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/as.exe --32 -o CMakeFiles/cmTC_96820.dir/CMakeCCompilerABI.c.obj C:\Users\Echo\AppData\Local\Temp\cckkPPXt.s
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_04ee8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+ d:/software/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/as.exe --32 -o CMakeFiles/cmTC_04ee8.dir/CMakeCCompilerABI.c.obj C:\Users\Echo\AppData\Local\Temp\cc8lyaoa.s
 COMPILER_PATH=d:/software/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/;d:/software/x86_64-elf-tools-windows/bin/../libexec/gcc/;d:/software/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/
 LIBRARY_PATH=d:/software/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/;d:/software/x86_64-elf-tools-windows/bin/../lib/gcc/;d:/software/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/lib/
-COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_96820.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_96820.exe
-D:/Software/cmak/bin/cmake.exe -E rm -f CMakeFiles/cmTC_96820.dir/objects.a
-D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-ar.exe qc CMakeFiles/cmTC_96820.dir/objects.a @CMakeFiles/cmTC_96820.dir/objects1.rsp
-D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables   -v -Wl,--whole-archive CMakeFiles/cmTC_96820.dir/objects.a -Wl,--no-whole-archive -o cmTC_96820.exe -Wl,--out-implib,libcmTC_96820.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_04ee8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_04ee8.exe
+D:/Software/cmak/bin/cmake.exe -E rm -f CMakeFiles/cmTC_04ee8.dir/objects.a
+D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-ar.exe qc CMakeFiles/cmTC_04ee8.dir/objects.a @CMakeFiles/cmTC_04ee8.dir/objects1.rsp
+D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables   -v -Wl,--whole-archive CMakeFiles/cmTC_04ee8.dir/objects.a -Wl,--no-whole-archive -o cmTC_04ee8.exe -Wl,--out-implib,libcmTC_04ee8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=D:/Software/x86_64-elf-tools-windows/bin/x86_64-elf-gcc.exe
 Target: x86_64-elf
@@ -50,8 +50,8 @@ Thread model: single
 gcc version 7.1.0 (GCC) 
 COMPILER_PATH=d:/software/x86_64-elf-tools-windows/bin/../libexec/gcc/x86_64-elf/7.1.0/;d:/software/x86_64-elf-tools-windows/bin/../libexec/gcc/;d:/software/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/bin/
 LIBRARY_PATH=d:/software/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/;d:/software/x86_64-elf-tools-windows/bin/../lib/gcc/;d:/software/x86_64-elf-tools-windows/bin/../lib/gcc/x86_64-elf/7.1.0/../../../../x86_64-elf/lib/
-COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'cmTC_96820.exe' '-mtune=generic' '-march=x86-64'
-x86_64-elf-gcc.exe: warning: CMakeFiles/cmTC_96820.dir/objects.a: linker input file unused because linking not done
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'cmTC_04ee8.exe' '-mtune=generic' '-march=x86-64'
+x86_64-elf-gcc.exe: warning: CMakeFiles/cmTC_04ee8.dir/objects.a: linker input file unused because linking not done
 make[1]: Leaving directory 'D:/demo/x86os/build/CMakeFiles/CMakeTmp'
 
 
@@ -60,8 +60,8 @@ Cannot copy output executable
 to destination specified by COPY_FILE:
   'D:/demo/x86os/build/CMakeFiles/3.23.1/CMakeDetermineCompilerABI_C.bin'
 Unable to find the executable at any of:
-  D:/demo/x86os/build/CMakeFiles/CMakeTmp/cmTC_96820.exe
-  D:/demo/x86os/build/CMakeFiles/CMakeTmp/Debug/cmTC_96820.exe
-  D:/demo/x86os/build/CMakeFiles/CMakeTmp/Development/cmTC_96820.exe
+  D:/demo/x86os/build/CMakeFiles/CMakeTmp/cmTC_04ee8.exe
+  D:/demo/x86os/build/CMakeFiles/CMakeTmp/Debug/cmTC_04ee8.exe
+  D:/demo/x86os/build/CMakeFiles/CMakeTmp/Development/cmTC_04ee8.exe
 
 
