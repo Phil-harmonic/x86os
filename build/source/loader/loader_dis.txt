@@ -29,13 +29,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   7 .debug_abbrev 00000320  00000000  00000000  00001f97  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_line   000002c8  00000000  00000000  000022b7  2**0
+  8 .debug_line   000002ca  00000000  00000000  000022b7  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_frame  00000260  00000000  00000000  00002580  2**2
+  9 .debug_frame  00000260  00000000  00000000  00002584  2**2
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_str    000003dd  00000000  00000000  000027e0  2**0
+ 10 .debug_str    000003dd  00000000  00000000  000027e4  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_ranges 00000018  00000000  00000000  00002bbd  2**0
+ 11 .debug_ranges 00000018  00000000  00000000  00002bc1  2**0
                   CONTENTS, READONLY, DEBUGGING
 SYMBOL TABLE:
 00008000 l    d  .text	00000000 .text
@@ -174,8 +174,8 @@ static inline void cli (void) {
     8078:	66 c3                	retl   
 
 0000807a <lgdt>:
-static inline void sti (void) {
-    __asm__ __volatile__("sti");
+static inline void hlt (void) {
+    __asm__ __volatile__("hlt");
 }
 
 // 加载GDT表

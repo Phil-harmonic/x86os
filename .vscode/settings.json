@@ -11,11 +11,12 @@
         "_default_fcntl.h": "c",
         "boot_info.h": "c",
         "cpu.h": "c",
-        "irq.h": "c"
+        "irq.h": "c",
+        "cpu_instr.h": "c"
     },
     "workbench.colorCustomizations": {
-        "statusBar.background" : "#193266",
+        "statusBar.background" : "#0e2e58",
         "statusBar.noFolderBackground" : "#5e5e99",
-        "statusBar.debuggingBackground": "#367070"
+        "statusBar.debuggingBackground": "#d441c8"
     }
 }
